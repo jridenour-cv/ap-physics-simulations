@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Physics Activity</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://www.geogebra.org/apps/deployggb.js"></script>
+</head>
+<body>
+  <header class="page-header">
+    <div class="container">
+      <a href="index.html" class="back-link">â† All activities</a>
+      <p class="eyebrow" id="activity-category">AP PHYSICS</p>
+      <h1 id="activity-title">Loading activityâ€¦</h1>
+      <p id="activity-description"></p>
+    </div>
+  </header>
+  <main class="container">
+    <section class="simulation-panel">
+      <div id="ggb-element" aria-label="Interactive GeoGebra construction"></div>
+    </section>
+    <details class="debug-panel">
+      <summary>Development preview: recent tracked GeoGebra changes</summary>
+      <p class="notice">This is a local diagnostic feed only. It does not identify students or save data. Firebase and Google sign-in will be added in a later phase.</p>
+      <ol id="event-log"><li>Waiting for the GeoGebra appletâ€¦</li></ol>
+    </details>
+  </main>
+  <script src="js/activity.js"></script>
+</body>
+</html>
